@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Free Consultation — Quad Solutions</title>
+    <meta
+      name="description"
+      content="Reserve a free 30-minute consultation with a Quad Solutions credentialing expert."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="booking-body">
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">Q</div>
+          <div class="brand-text">
+            <span class="brand-name">Quad Solutions</span>
+            <span class="brand-sub">Medical Credentialing</span>
+          </div>
+        </a>
+        <a href="index.html" class="back-link">&larr; Back to home</a>
+      </div>
+    </header>
+
+    <!-- ========== HEADER ========== -->
+    <section class="booking-header">
+      <div class="container booking-header-inner">
+        <span class="pill">
+          <span class="pill-dot"></span>
+          100% free &middot; No commitment
+        </span>
+        <h1>
+          Let's chat about <span class="hero-script">your practice</span>.
+        </h1>
+        <p>
+          Book a 30&#8209;minute call with a credentialing expert. We'll review
+          your current setup, surface quick wins, and outline a clear next step
+          &mdash; whether you hire us or not.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== BOOKING LAYOUT ========== -->
+    <section class="booking-section">
+      <div class="container booking-layout">
+        <!-- LEFT INFO COLUMN -->
+        <aside class="booking-info">
+          <div class="info-card">
+            <h3><span class="info-icon">&#127919;</span> What you'll get</h3>
+            <ul class="benefit-list">
+              <li>A custom credentialing roadmap for your practice</li>
+              <li>An audit of your current documentation</li>
+              <li>Realistic timeline and cost estimate</li>
+              <li>Answers to every payer&#8209;related question</li>
+              <li>Priority onboarding if you decide to move forward</li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <h3><span class="info-icon">&#9203;</span> What to expect</h3>
+            <p>
+              Your call will be with a senior credentialing specialist &mdash;
+              not a sales rep. Bring questions about payers, providers, or
+              timelines, and we'll give you straight answers.
+            </p>
+          </div>
+
+          <div class="info-card info-card-quiet">
+            <h3>
+              <span class="info-icon">&#9742;</span> Prefer a direct line?
+            </h3>
+            <a class="quick-link" href="tel:+15551234567">
+              <span>Phone</span>
+              <strong>(555) 123&#8209;4567</strong>
+            </a>
+            <a class="quick-link" href="mailto:hello@quadsolutions.com">
+              <span>Email</span>
+              <strong>hello@quadsolutions.com</strong>
+            </a>
+          </div>
+
+          <div class="trust-row">
+            <span class="trust-pill">&#9989; HIPAA</span>
+            <span class="trust-pill">&#9989; Insured</span>
+            <span class="trust-pill">&#9989; 95% success</span>
+            <span class="trust-pill">&#9989; Since 2010</span>
+          </div>
+        </aside>
+
+        <!-- RIGHT FORM COLUMN -->
+        <div class="booking-form-card">
+          <div class="form-bar"></div>
+
+          <div class="form-inner" id="formContainer">
+            <h2 class="form-title">Schedule your session</h2>
+            <p class="form-subtitle">
+              Takes under 2 minutes &mdash; we'll confirm within 1 business
+              hour.
+            </p>
+
+            <!-- PROGRESS -->
+            <ol class="progress" id="progressBar">
+              <li class="step active" data-step="1">
+                <span>1</span><label>About you</label>
+              </li>
+              <li class="step" data-step="2">
+                <span>2</span><label>Services</label>
+              </li>
+              <li class="step" data-step="3">
+                <span>3</span><label>Schedule</label>
+              </li>
+              <li class="step" data-step="4">
+                <span>4</span><label>Confirm</label>
+              </li>
+            </ol>
+
+            <!-- STEP 1 -->
+            <div class="form-step active" data-step="1">
+              <div class="field-row">
+                <label class="field">
+                  <span>First name *</span>
+                  <input type="text" id="firstName" placeholder="John" />
+                </label>
+                <label class="field">
+                  <span>Last name *</span>
+                  <input type="text" id="lastName" placeholder="Smith" />
+                </label>
+              </div>
+              <label class="field">
+                <span>Email *</span>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="john@yourpractice.com"
+                />
+              </label>
+              <div class="field-row">
+                <label class="field">
+                  <span>Phone *</span>
+                  <input type="tel" id="phone" placeholder="(555) 000-0000" />
+                </label>
+                <label class="field">
+                  <span>Your role *</span>
+                  <select id="role">
+                    <option value="">Select role&hellip;</option>
+                    <option>Healthcare provider</option>
+                    <option>Practice manager</option>
+                    <option>Administrator</option>
+                    <option>Billing specialist</option>
+                    <option>Other</option>
+                  </select>
+                </label>
+              </div>
+              <label class="field">
+                <span>Practice / organisation</span>
+                <input
+                  type="text"
+                  id="practice"
+                  placeholder="e.g. Wellness Family Clinic"
+                />
+              </label>
+
+              <div class="form-nav">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-block"
+                  data-action="next"
+                >
+                  Continue &rarr;
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="form-step" data-step="2">
+              <div class="field">
+                <span class="field-label">Which services interest you? *</span>
+                <div class="service-options" id="serviceOptions">
+                  <button
+                    type="button"
+                    class="opt"
+                    data-value="Provider Credentialing"
+                  >
+                    <span class="check-box"></span>Provider Credentialing
+                  </button>
+                  <button
+                    type="button"
+                    class="opt"
+                    data-value="Insurance Enrollment"
+                  >
+                    <span class="check-box"></span>Insurance Enrollment
+                  </button>
+                  <button
+                    type="button"
+                    class="opt"
+                    data-value="Billing Support"
+                  >
+                    <span class="check-box"></span>Billing Support
+                  </button>
+                  <button
+                    type="button"
+                    class="opt"
+                    data-value="Compliance & Audits"
+                  >
+                    <span class="check-box"></span>Compliance &amp; Audits
+                  </button>
+                  <button
+                    type="button"
+                    class="opt"
+                    data-value="CAQH Profile Management"
+                  >
+                    <span class="check-box"></span>CAQH Profile Management
+                  </button>
+                  <button type="button" class="opt" data-value="Document Vault">
+                    <span class="check-box"></span>Secure Document Vault
+                  </button>
+                </div>
+              </div>
+
+              <label class="field">
+                <span>Number of providers</span>
+                <select id="providerCount">
+                  <option value="">Select&hellip;</option>
+                  <option>1 provider</option>
+                  <option>2&ndash;5 providers</option>
+                  <option>6&ndash;10 providers</option>
+                  <option>11&ndash;25 providers</option>
+                  <option>25+ providers</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>Anything else we should know?</span>
+                <textarea
+                  id="notes"
+                  rows="4"
+                  placeholder="Tell us about your current setup or biggest challenges&hellip;"
+                ></textarea>
+              </label>
+
+              <div class="form-nav">
+                <button type="button" class="btn btn-ghost" data-action="prev">
+                  &larr; Back
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-action="next"
+                >
+                  Continue &rarr;
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="form-step" data-step="3">
+              <div class="field">
+                <span class="field-label">Pick a date *</span>
+                <div class="date-grid" id="dateGrid"></div>
+              </div>
+
+              <div class="field">
+                <span class="field-label">Pick a time *</span>
+                <div class="slot-grid" id="slotGrid"></div>
+              </div>
+
+              <label class="field">
+                <span>Preferred call type</span>
+                <select id="consultType">
+                  <option value="Phone Call">&#9742; Phone call</option>
+                  <option value="Video Call">
+                    &#128187; Video call (Zoom/Meet)
+                  </option>
+                  <option value="In-Person">
+                    &#127973; In&#8209;person visit
+                  </option>
+                </select>
+              </label>
+
+              <div class="form-nav">
+                <button type="button" class="btn btn-ghost" data-action="prev">
+                  &larr; Back
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-action="next"
+                >
+                  Review &rarr;
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 4 -->
+            <div class="form-step" data-step="4">
+              <h3 class="review-title">Confirm your details</h3>
+              <div class="review-grid" id="reviewGrid"></div>
+
+              <label class="terms">
+                <input type="checkbox" id="agree" />
+                <span
+                  >I agree to the <a href="#">Privacy Policy</a> and consent to
+                  being contacted by Quad Solutions.</span
+                >
+              </label>
+
+              <div class="form-nav">
+                <button type="button" class="btn btn-ghost" data-action="prev">
+                  &larr; Back
+                </button>
+                <button type="button" class="btn btn-primary" id="confirmBtn">
+                  &#10003; Confirm booking
+                </button>
+              </div>
+            </div>
+
+            <!-- SUCCESS -->
+            <div class="form-step success-step" data-step="5">
+              <div class="success-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <h3>You're all set!</h3>
+              <p>
+                Your free consultation has been booked. Look out for a
+                confirmation email in the next few minutes.
+              </p>
+              <div class="review-grid" id="successGrid"></div>
+              <a href="index.html" class="btn btn-primary btn-block"
+                >Back to home</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="page-footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Quad Solutions &middot;
+          <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; HIPAA
+          Compliant
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
