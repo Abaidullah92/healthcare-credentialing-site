@@ -47,10 +47,13 @@ This project was developed as part of an internship to demonstrate front-end dev
 
 ## 🛠️ Technologies Used
 
-- HTML – Structure  
-- CSS – Styling & responsiveness  
-- JavaScript – Interactivity & form handling  
-- Google Fonts – Typography  
+| Technology           | Purpose                    |
+| -------------------- | -------------------------- |
+| HTML                | Structure                  |
+| CSS                 | Styling & responsiveness   |
+| JavaScript          | Interactivity & form logic |
+| Google Fonts         | Typography                 |
+
 
 ---
 
