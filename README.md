@@ -59,14 +59,22 @@ This project was developed as part of an internship to demonstrate front-end dev
 
 ## 📂 Project Structure
 
-Quad-Solutions/
+```bash
+quad-solutions-website/
 │
 ├── index.html
 ├── book-consultation.html
 ├── styles.css
 ├── script.js
+├── README.md
+│
 ├── images/
-└── README.md
+│   └── hero-portrait.png
+│
+└── assets/
+    ├── icons/
+    └── screenshots/
+```
 
 ---
 
