@@ -52,9 +52,9 @@ This project was developed as part of an internship to demonstrate front-end dev
 
 | Technology           | Purpose                    |
 | -------------------- | -------------------------- |
-| HTML5                | Structure                  |
-| CSS3                 | Styling & responsiveness   |
-| JavaScript (Vanilla) | Interactivity & form logic |
+| HTML                | Structure                  |
+| CSS                 | Styling & responsiveness   |
+| JavaScript          | Interactivity & form logic |
 | Google Fonts         | Typography                 |
 
 ---
@@ -130,9 +130,9 @@ quad-solutions-website/
 
 ## 👨‍💻 Author
 
-**Name:** Abaidullah
-**Role:** Front-End Developer (Intern)
-**Project Type:** Internship Submission
+* Name: Abaidullah
+* Role: Front-End Developer (Intern)
+* Project Type: Internship Submission
 
 ---
 
