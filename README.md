@@ -44,8 +44,8 @@ This project was developed as part of an internship to demonstrate front-end dev
 
 | Technology | Purpose |
 |----------|--------|
-| HTML5 | Structure |
-| CSS3 | Styling & responsive design |
+| HTML | Structure |
+| CSS | Styling & responsive design |
 | JavaScript | Interactivity & form logic |
 | Google Fonts | Typography |
 
