@@ -53,13 +53,20 @@ This project was developed as part of an internship to demonstrate front-end dev
 
 ## 📂 Project Structure
 
-project-folder/
-├── index.html
-├── book-consultation.html
-├── styles.css
-├── script.js
-├── README.md
-└── images/
+quad-solutions-website/
+│
+├── index.html                  # Main homepage
+├── book-consultation.html      # Booking/consultation page
+├── styles.css                  # All styling (responsive design)
+├── script.js                   # JavaScript functionality
+├── README.md                   # Project documentation
+│
+├── images/                     # Image assets
+│   └── hero-portrait.png
+│
+└── assets/ (optional)
+    ├── icons/
+    └── screenshots/
 
 ---
 
