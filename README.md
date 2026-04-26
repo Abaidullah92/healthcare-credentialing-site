@@ -53,18 +53,16 @@ This project was developed as part of an internship to demonstrate front-end dev
 
 ## 📂 Project Structure
 
-quad-solutions-website/
-│
-├── index.html                  # Main homepage
-├── book-consultation.html      # Booking/consultation page
-├── styles.css                  # All styling (responsive design)
-├── script.js                   # JavaScript functionality
-├── README.md                   # Project documentation
-│
-├── images/                     # Image assets
+```bash
+health-credentialing-site/
+├── index.html
+├── book-consultation.html
+├── styles.css
+├── script.js
+├── README.md
+├── images/
 │   └── hero-portrait.png
-│
-└── assets/ (optional)
+└── assets/
     ├── icons/
     └── screenshots/
 
